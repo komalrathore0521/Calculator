@@ -74,12 +74,17 @@ form input.ac{
 @media screen and (max-width: 800px){
     .container{
     width:100vh ;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 
     }
+    .container{
+        margin:0;
+        
+    }
+
     
     .text{
         display: none;
