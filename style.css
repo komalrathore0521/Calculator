@@ -70,3 +70,18 @@ form input.ac{
     color: red;
     
 }
+
+@media screen and (max-width: 800px){
+    .container{
+    width:100vh ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+    
+    .text{
+        display: none;
+    }
+}
